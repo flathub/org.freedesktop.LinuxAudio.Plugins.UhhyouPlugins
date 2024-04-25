@@ -47,9 +47,21 @@
         <li>UltrasonicRingMod</li>
       </ul>
     </description>
-    <update_contact>CONTACT</update_contact>
+    <update_contact>hub_AT_figuiere.net</update_contact>
     <url type="homepage">https://ryukau.github.io/VSTPlugins/</url>
     <releases>
+      <release version="0.61.0" date="2023-12-28">
+        <description>
+          <p>Fix GUI bug</p>
+        </description>
+      </release>
+      <release version="0.59.0" date="2023-12-01">
+        <description>
+          <ul>
+            <li>Added randomization button to ClangCymbal.</li>
+          </ul>
+        </description>
+      </release>
       <release version="0.58.0" date="2023-10-22">
         <description>
           <p>Added a randomization button to GenericDrum.</p>
