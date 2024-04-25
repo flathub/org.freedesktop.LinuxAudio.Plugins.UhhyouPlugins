@@ -4,7 +4,6 @@
     "runtime-version": "stable",
     "sdk": "org.freedesktop.Sdk//23.08",
     "build-extension": true,
-    "appstream-compose": false,
     "branch": "23.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/UhhyouPlugins",
@@ -115,7 +114,6 @@
                 "-DVSTGUI_DISABLE_UNITTESTS=OFF",
                 "-DVSTGUI_TOOLS=OFF",
                 "-DSMTG_ADD_VST3_HOSTING_SAMPLES=FALSE",
-                "-DSMTG_ADD_VST3_PLUGINS_SAMPLES=FALSE",
                 "-DSMTG_RUN_VST_VALIDATOR=OFF"
             ],
             "build-options": {
@@ -131,15 +129,14 @@
             "post-install": [
                 "install -d ${FLATPAK_DEST}/vst3",
                 "cp -R ./VST3/Release/*.vst3 ${FLATPAK_DEST}/vst3/",
-                "install -Dm644 ../org.freedesktop.LinuxAudio.Plugins.UhhyouPlugins.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo",
-                "appstream-compose --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST} --origin=flatpak ${FLATPAK_ID}"
+                "install -Dm644 ../org.freedesktop.LinuxAudio.Plugins.UhhyouPlugins.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/ryukau/VSTPlugins.git",
-                    "tag": "UhhyouPlugins0.58.0",
-                    "commit": "e40d75ee471fe4301cb266af0a2c40765841c0ea"
+                    "tag": "UhhyouPlugins0.61.0",
+                    "commit": "f74a287fbae2ad17d35adbc8a4d5ab6fbc3be139"
                 },
                 {
                     "type": "patch",
@@ -155,7 +152,7 @@
                 {
                     "type": "shell",
                     "commands": [
-                        "cp ci/linux_patch/cairocontext.cpp lib/vst3sdk/vstgui4/vstgui/lib/platform/linux/cairocontext.cpp"
+                        "cd lib/vst3sdk/vstgui4/ && git apply ../../../ci/linux_patch/cairographicscontext.patch"
                     ]
                 },
                 {
