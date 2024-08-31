@@ -6,6 +6,7 @@
     <summary>Uhhyou Plugins VST3</summary>
     <project_license>GPL-3.0</project_license>
     <metadata_license>CC0-1.0</metadata_license>
+    <developer_name>Uhhyou Developers</developer_name>
     <description>
       <p>Uhhyou Plugins in VST3</p>
       <p>It contains the following synthesizers:</p>
@@ -33,6 +34,7 @@
         <li>EsPhaser</li>
         <li>FDN64Reverb</li>
         <li>FeedbackPhaser</li>
+        <li>GlitchSprinkler</li>
         <li>L4Reverb</li>
         <li>LatticeReverb</li>
         <li>LongPhaser</li>
@@ -50,6 +52,11 @@
     <update_contact>hub_AT_figuiere.net</update_contact>
     <url type="homepage">https://ryukau.github.io/VSTPlugins/</url>
     <releases>
+      <release version="0.62.0" date="2024-08-11">
+        <description>
+          <p>Added a new plugin GlitchSprinkler.</p>
+        </description>
+      </release>
       <release version="0.61.0" date="2023-12-28">
         <description>
           <p>Fix GUI bug</p>
