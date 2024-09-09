@@ -2,9 +2,9 @@
     "id": "org.freedesktop.LinuxAudio.Plugins.UhhyouPlugins",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "stable",
-    "sdk": "org.freedesktop.Sdk//23.08",
+    "sdk": "org.freedesktop.Sdk//24.08",
     "build-extension": true,
-    "branch": "23.08",
+    "branch": "24.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/UhhyouPlugins",
         "prepend-pkg-config-path": "/app/extensions/Plugins/UhhyouPlugins/lib/pkgconfig"
@@ -142,7 +142,8 @@
                     "type": "patch",
                     "paths": [
                         "patches/vst3sdk.patch",
-                        "patches/vst3sdk-gcc11.patch"
+                        "patches/vst3sdk-gcc11.patch",
+                        "patches/uhhyouplugins-vstgui.patch"
                     ],
                     "options": [
                         "-d",
