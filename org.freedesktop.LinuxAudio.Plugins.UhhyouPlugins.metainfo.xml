@@ -14,6 +14,7 @@
         <li>ClangSynthh</li>
         <li>CollidingCombSynth</li>
         <li>CubicPadSynth</li>
+        <li>DoubleLoopCymbal</li>
         <li>EnvelopedSine</li>
         <li>FDNCymbal</li>
         <li>GenericDrum</li>
@@ -52,6 +53,9 @@
     <update_contact>hub_AT_figuiere.net</update_contact>
     <url type="homepage">https://ryukau.github.io/VSTPlugins/</url>
     <releases>
+      <release version="0.63.0" date="2024-10-11">
+        <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.63.0</url>
+      </release>
       <release version="0.62.0" date="2024-08-11">
         <description>
           <p>Added a new plugin GlitchSprinkler.</p>
