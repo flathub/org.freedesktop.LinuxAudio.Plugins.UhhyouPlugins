@@ -47,12 +47,16 @@
         <li>PitchShiftDelay</li>
         <li>RingModSpacer</li>
         <li>SevenDelay</li>
+        <li>SpectralPhaser</li>
         <li>UltrasonicRingMod</li>
       </ul>
     </description>
     <update_contact>hub_AT_figuiere.net</update_contact>
     <url type="homepage">https://ryukau.github.io/VSTPlugins/</url>
     <releases>
+      <release version="0.64.0" date="2024-10-24">
+        <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.64.0</url>
+      </release>
       <release version="0.63.0" date="2024-10-11">
         <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.63.0</url>
       </release>
