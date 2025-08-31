@@ -54,6 +54,12 @@
     <update_contact>hub_AT_figuiere.net</update_contact>
     <url type="homepage">https://ryukau.github.io/VSTPlugins/</url>
     <releases>
+      <release version="0.67.0" date="2025-09-02">
+        <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.67.0</url>
+      </release>
+      <release version="0.66.0" date="2025-08-30">
+        <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.66.0</url>
+      </release>
       <release version="0.65.0" date="2024-11-15">
         <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.65.0</url>
       </release>
