@@ -135,15 +135,14 @@
                 {
                     "type": "git",
                     "url": "https://github.com/ryukau/VSTPlugins.git",
-                    "tag": "UhhyouPlugins0.65.0",
-                    "commit": "4e7a1fecb9bd19047a034719fe44c172bf4ec7a3"
+                    "tag": "UhhyouPlugins0.66.0",
+                    "commit": "94e7fd1f2be3fc432f0f2747dc87a68be0adddcb"
                 },
                 {
                     "type": "patch",
                     "paths": [
                         "patches/vst3sdk.patch",
-                        "patches/vst3sdk-gcc11.patch",
-                        "patches/uhhyouplugins-vstgui.patch"
+                        "patches/vst3sdk-gcc11.patch"
                     ],
                     "options": [
                         "-d",
