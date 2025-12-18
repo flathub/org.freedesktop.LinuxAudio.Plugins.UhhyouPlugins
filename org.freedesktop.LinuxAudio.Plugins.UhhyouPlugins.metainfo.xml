@@ -54,11 +54,45 @@
     <update_contact>hub_AT_figuiere.net</update_contact>
     <url type="homepage">https://ryukau.github.io/VSTPlugins/</url>
     <releases>
+      <release version="0.68.0" date="2025-12-16">
+        <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.68.0</url>
+        <description>
+          <p>FeedbackPhaser 0.1.6</p>
+          <ul>
+            <li>Fixed a bug that when Modulation -&gt; Type is set to
+            Lin. Mul. or Add, and Mod. Asym. is set to ±1, saving and
+            loading the plugin changed the sound.</li>
+          </ul>
+          <p>MembraneSynth 0.1.11</p>
+          <ul>
+            <li>Added randomize buttons.</li>
+          </ul>
+        </description>
+      </release>
       <release version="0.67.0" date="2025-09-02">
         <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.67.0</url>
+        <description>
+          <p>Fixed a bug that GlitchSprinkler output silence when
+          Bitwise And parameter was enabled.</p>
+        </description>
       </release>
       <release version="0.66.0" date="2025-08-30">
         <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.66.0</url>
+        <description>
+          <ul>
+            <li>Added GUI scaling. To use the option, add guiScale to
+            style.json. Details are available on "GUI Style
+            Configuration" section on the manual page.</li>
+            <li>Added allpass loop gain parameters to
+            DoubleLoopCymbal. The parameters can be used to reduce the
+            decay time, but the texture becomes less metallic.</li>
+            <li>Fixed a bug on BarBox that the "ascending sort"
+            shortcut was disabled.</li>
+            <li>Updated the Linux patch for VSTGUI4. This solves the
+            crash on the issue #54, and the incorrect rendering of
+            arc, ellipse, and polygon.</li>
+          </ul>
+        </description>
       </release>
       <release version="0.65.0" date="2024-11-15">
         <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.65.0</url>
