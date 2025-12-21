@@ -135,8 +135,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/ryukau/VSTPlugins.git",
-                    "tag": "UhhyouPlugins0.68.0",
-                    "commit": "476bc9ee9614061c6d326a7d7ce094934733501d"
+                    "tag": "UhhyouPlugins0.69.0",
+                    "commit": "9c46b6fdb985d8a27cf28e130f2c5becaae95a86"
                 },
                 {
                     "type": "patch",
