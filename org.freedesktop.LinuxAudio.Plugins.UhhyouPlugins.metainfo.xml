@@ -53,6 +53,18 @@
     <update_contact>hub_AT_figuiere.net</update_contact>
     <url type="homepage">https://ryukau.github.io/VSTPlugins/</url>
     <releases>
+      <release version="0.70.0" date="2026-04-12">
+        <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.70.0</url>
+        <description>
+          <p>Fixed a bug that plugin to show up with incorrect window size (likely 512x512 pixels) at initialization.</p>
+          <p>Changed internals to speed up.</p>
+          <ul>
+            <li>BasicLimiter</li>
+            <li>BasicLimiterAutoMake</li>
+            <li>FDN64Reverb</li>
+          </ul>
+        </description>
+      </release>
       <release version="0.69.0" date="2025-12-21">
         <url>https://github.com/ryukau/VSTPlugins/releases/tag/UhhyouPlugins0.69.0</url>
         <description>
